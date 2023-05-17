@@ -1,0 +1,26 @@
+# "ats_store_name": "Amazon狭山日高",
+# "ats_store_id": "396174",
+# POST http://localhost:10082/api/add-consumer HTTP/1.1
+# POST https://nx-careerroad.sendae.me/api/add-consumer HTTP/1.1
+POST https://nx-careerroad.sendae.me/api/add-consumer HTTP/1.1
+content-type: application/json
+
+{
+    "api_token": "$ik.E~~Q-N+7",
+    "applicants": [
+        {
+            "name": "テスト",
+            "kana": "テストかな",
+            "tel": "09033416138",
+            "email": "akiyama-d@dym.jp",
+            "address": "",
+            "gender": "",
+            "birthday": "",
+            "ats_id": "0011609039",
+            "ats_store_name": "Amazon狭山日高",
+            "ats_store_id": "396174",
+            "job_detail_url": "https://ats.jobop.jp/ats/application/applicationDetail/?applicationId=0011609039",
+            "media": "----"
+        }
+    ]
+}

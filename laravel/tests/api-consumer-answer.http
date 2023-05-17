@@ -1,0 +1,20 @@
+POST http://localhost:10082/api/consumer-answer HTTP/1.1
+content-type: application/json
+
+{
+    "api_token" : "$ik.E~~Q-N+7",
+    "applicants" : [
+        {
+            "name" : "山田太郎",
+            "kana" : "やまだたろう",
+            "tel" : "090999911111",
+            "mail" : "test@testtest.test",
+            "address" : "東京都",
+            "gender" : "",
+            "ats_type" : "1",
+            "ats_id" : "1",
+            "ats_store_id" : "1",
+            "ats_store_type" : "1"
+        }
+    ]
+}
